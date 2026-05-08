@@ -1,14 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <p>Welcome to netflix</p>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main class="hero">
+      <header>
+        <nav class="p-6 flex items-center justify-between">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+            alt=""
+            class="w-24"
+          />
+          <button class="bg-red-500 text-white rounded-md px-6 py-2">
+            Sign In
+          </button>
+        </nav>
+      </header>
 
-    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt=""> -->
-</body>
+      <section class="mt-32 flex flex-col items-center justify-center">
+        <div class="space-y-4 text-center flex flex-col items-center justify-center">
+            <h2 class="text-4xl font-bold max-w-[25rem] text-center">Unlimited movies, TV shows, and more.</h2>
+            <p class="text-lg">Watch anywhere, Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        
+        <form class="mt-6 flex">
+            <input type="email" placeholder="Email address" class="px-6 py-2 bg-white placeholder:text-zinc-400 outline-none text-black">
+            <button class="bg-red-500 text-white px-6 py-2 uppercase">Get Started</button>
+        </form>
+    </section>
+    </main>
+
+
+    <!-- section 1 -->
+     <section>
+
+     </section>
+
+    <!-- section 2 -->
+     <section>
+
+     </section>
+
+    <!-- section 3 -->
+     <section>
+
+     </section>
+  </body>
 </html>
