@@ -17,3 +17,29 @@ body{
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.section2{
+  min-height: 70vh;
+  background-color: black;
+  display: flex;
+  color: white;
+  padding: 0.5cm;
+  align-items: center;
+  justify-content: center;
+  gap: 40vh;
+}
+.tet h1{
+  font-size: 2.25rem ;
+    line-height: 2.5rem ;
+    font-weight: 700;
+}
+.tet h2{
+  width: 10cm;
+  text-align: justify;
+  font-size: 1.125rem ;
+    line-height: 1.75rem ;
+}
+.phn2{
+height: 50vh;
+}
+
